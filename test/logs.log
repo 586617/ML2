@@ -1,0 +1,398 @@
+2021-11-12 10:24:14,358:INFO:Initializing load_model()
+2021-11-12 10:24:14,359:INFO:load_model(model_name=model/final_model_heart_failure, platform=None, authentication=None, verbose=True)
+2021-11-12 10:31:58,149:INFO:Initializing load_model()
+2021-11-12 10:31:58,149:INFO:load_model(model_name=model/final_model_heart_failure, platform=None, authentication=None, verbose=True)
+2021-11-12 10:32:16,258:INFO:Initializing load_model()
+2021-11-12 10:32:16,258:INFO:load_model(model_name=model/final_model_heart_failure, platform=None, authentication=None, verbose=True)
+2021-11-12 10:32:16,342:INFO:Initializing predict_model()
+2021-11-12 10:32:16,342:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='HeartDisease')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 TunableVotingClassifier(estimators=[('rf',
+                                                      RandomForestClassifier(n_jobs=-1,
+                                                                             random_state=2837)),
+                                                     ('knn',
+                                                      KNeighborsClassifier(n_jobs=-1))],
+                                         n_jobs=-1, voting='soft', weight_0=1,
+                                         weight_1=1, weights=[1, 1])]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 10:32:16,343:INFO:Checking exceptions
+2021-11-12 10:32:16,343:INFO:Preloading libraries
+2021-11-12 10:32:17,168:INFO:Initializing load_model()
+2021-11-12 10:32:17,168:INFO:load_model(model_name=model/final_model_heart_failure, platform=None, authentication=None, verbose=True)
+2021-11-12 10:32:18,694:INFO:Initializing load_model()
+2021-11-12 10:32:18,694:INFO:load_model(model_name=model/final_model_heart_failure, platform=None, authentication=None, verbose=True)
+2021-11-12 10:32:18,764:INFO:Initializing predict_model()
+2021-11-12 10:32:18,765:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='HeartDisease')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 TunableVotingClassifier(estimators=[('rf',
+                                                      RandomForestClassifier(n_jobs=-1,
+                                                                             random_state=2837)),
+                                                     ('knn',
+                                                      KNeighborsClassifier(n_jobs=-1))],
+                                         n_jobs=-1, voting='soft', weight_0=1,
+                                         weight_1=1, weights=[1, 1])]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 10:32:18,765:INFO:Checking exceptions
+2021-11-12 10:32:18,766:INFO:Preloading libraries
+2021-11-12 16:17:29,243:INFO:Initializing load_model()
+2021-11-12 16:17:29,243:INFO:load_model(model_name=final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:17:29,813:INFO:Initializing load_model()
+2021-11-12 16:17:29,814:INFO:load_model(model_name=final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:21:03,807:INFO:Initializing load_model()
+2021-11-12 16:21:03,807:INFO:load_model(model_name=final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:23:18,090:INFO:Initializing load_model()
+2021-11-12 16:23:18,090:INFO:load_model(model_name=final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:26:06,662:INFO:Initializing load_model()
+2021-11-12 16:26:06,662:INFO:Initializing load_model()
+2021-11-12 16:26:06,663:INFO:load_model(model_name=final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:26:06,663:INFO:load_model(model_name=final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:30:37,557:INFO:Initializing load_model()
+2021-11-12 16:30:37,557:INFO:Initializing load_model()
+2021-11-12 16:30:37,558:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:30:37,558:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:31:00,022:INFO:Initializing load_model()
+2021-11-12 16:31:00,022:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:31:05,791:INFO:Initializing load_model()
+2021-11-12 16:31:05,791:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:31:11,782:INFO:Initializing load_model()
+2021-11-12 16:31:11,783:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:31:15,837:INFO:Initializing predict_model()
+2021-11-12 16:31:15,838:INFO:predict_model(estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=12,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=1, tree_method='exact', validate_parameters=1,
+              verbosity=None), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 16:31:15,839:INFO:Checking exceptions
+2021-11-12 16:31:15,839:INFO:Preloading libraries
+2021-11-12 16:31:15,840:ERROR:Pipeline not found. Exception:
+2021-11-12 16:31:15,842:ERROR:Traceback (most recent call last):
+  File "c:\users\matia\anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 8639, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-11-12 16:32:56,309:INFO:Initializing load_model()
+2021-11-12 16:32:56,309:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:33:03,183:INFO:Initializing load_model()
+2021-11-12 16:33:03,184:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:33:42,128:INFO:Initializing load_model()
+2021-11-12 16:33:42,128:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 16:34:09,305:INFO:Initializing load_model()
+2021-11-12 16:34:09,305:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 17:16:48,384:INFO:Initializing load_model()
+2021-11-12 17:16:48,384:INFO:Initializing load_model()
+2021-11-12 17:16:48,384:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 17:16:48,384:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 17:16:54,123:INFO:Initializing load_model()
+2021-11-12 17:16:54,123:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:18:54,094:INFO:Initializing load_model()
+2021-11-12 22:18:54,094:INFO:Initializing load_model()
+2021-11-12 22:18:54,094:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:18:54,094:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:18:59,838:INFO:Initializing load_model()
+2021-11-12 22:18:59,838:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:26:40,608:INFO:Initializing load_model()
+2021-11-12 22:26:40,608:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:26:44,681:INFO:Initializing predict_model()
+2021-11-12 22:26:44,681:INFO:predict_model(estimator=XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=12,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=1, tree_method='exact', validate_parameters=1,
+              verbosity=None), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 22:26:44,682:INFO:Checking exceptions
+2021-11-12 22:26:44,683:INFO:Preloading libraries
+2021-11-12 22:26:44,683:ERROR:Pipeline not found. Exception:
+2021-11-12 22:26:44,686:ERROR:Traceback (most recent call last):
+  File "c:\users\matia\anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 8639, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-11-12 22:31:34,939:INFO:Initializing load_model()
+2021-11-12 22:31:34,939:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:31:35,753:INFO:Initializing load_model()
+2021-11-12 22:31:35,754:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:31:36,596:INFO:Initializing load_model()
+2021-11-12 22:31:36,597:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:31:39,493:INFO:Initializing load_model()
+2021-11-12 22:31:39,493:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:31:39,562:INFO:Initializing predict_model()
+2021-11-12 22:31:39,563:INFO:predict_model(estimator=Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['budget',
+                                                   'original_language',
+                                                   'popularity', 'runtime',
+                                                   'genre_list0', 'genre_list1',
+                                                   'genre_list2', 'genre_list3',
+                                                   'genre_list4', 'genre_list5',
+                                                   'genre_list6', 'genre_list7',
+                                                   'genre_list8', 'genre_li...
+                                                   'prod_comp_list4', ...])])),
+                ('regressor',
+                 RandomizedSearchCV(cv=8,
+                                    estimator=RandomForestRegressor(random_state=42),
+                                    n_iter=20,
+                                    param_distributions={'max_depth': [10, 20,
+                                                                       30, 40,
+                                                                       50, 60,
+                                                                       70, 80,
+                                                                       90, 100,
+                                                                       110,
+                                                                       None],
+                                                         'max_features': ['auto',
+                                                                          'sqrt',
+                                                                          20,
+                                                                          25,
+                                                                          30,
+                                                                          35],
+                                                         'min_samples_leaf': [1,
+                                                                              2,
+                                                                              4,
+                                                                              8,
+                                                                              10],
+                                                         'min_samples_split': [2,
+                                                                               5,
+                                                                               10,
+                                                                               15],
+                                                         'n_estimators': [20,
+                                                                          40,
+                                                                          45,
+                                                                          50,
+                                                                          60,
+                                                                          80,
+                                                                          100,
+                                                                          150,
+                                                                          200,
+                                                                          300,
+                                                                          500,
+                                                                          600,
+                                                                          700,
+                                                                          800]}))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 22:31:39,564:INFO:Checking exceptions
+2021-11-12 22:31:39,564:INFO:Preloading libraries
+2021-11-12 22:33:11,780:INFO:Initializing load_model()
+2021-11-12 22:33:11,780:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:33:13,455:INFO:Initializing load_model()
+2021-11-12 22:33:13,455:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:33:13,518:INFO:Initializing predict_model()
+2021-11-12 22:33:13,519:INFO:predict_model(estimator=Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['budget',
+                                                   'original_language',
+                                                   'popularity', 'runtime',
+                                                   'genre_list0', 'genre_list1',
+                                                   'genre_list2', 'genre_list3',
+                                                   'genre_list4', 'genre_list5',
+                                                   'genre_list6', 'genre_list7',
+                                                   'genre_list8', 'genre_li...
+                                                   'prod_comp_list4', ...])])),
+                ('regressor',
+                 RandomizedSearchCV(cv=8,
+                                    estimator=RandomForestRegressor(random_state=42),
+                                    n_iter=20,
+                                    param_distributions={'max_depth': [10, 20,
+                                                                       30, 40,
+                                                                       50, 60,
+                                                                       70, 80,
+                                                                       90, 100,
+                                                                       110,
+                                                                       None],
+                                                         'max_features': ['auto',
+                                                                          'sqrt',
+                                                                          20,
+                                                                          25,
+                                                                          30,
+                                                                          35],
+                                                         'min_samples_leaf': [1,
+                                                                              2,
+                                                                              4,
+                                                                              8,
+                                                                              10],
+                                                         'min_samples_split': [2,
+                                                                               5,
+                                                                               10,
+                                                                               15],
+                                                         'n_estimators': [20,
+                                                                          40,
+                                                                          45,
+                                                                          50,
+                                                                          60,
+                                                                          80,
+                                                                          100,
+                                                                          150,
+                                                                          200,
+                                                                          300,
+                                                                          500,
+                                                                          600,
+                                                                          700,
+                                                                          800]}))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 22:33:13,521:INFO:Checking exceptions
+2021-11-12 22:33:13,522:INFO:Preloading libraries
+2021-11-12 22:35:00,251:INFO:Initializing load_model()
+2021-11-12 22:35:00,252:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:35:01,746:INFO:Initializing load_model()
+2021-11-12 22:35:01,746:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:35:01,816:INFO:Initializing predict_model()
+2021-11-12 22:35:01,816:INFO:predict_model(estimator=Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['budget',
+                                                   'original_language',
+                                                   'popularity', 'runtime',
+                                                   'genre_list0', 'genre_list1',
+                                                   'genre_list2', 'genre_list3',
+                                                   'genre_list4', 'genre_list5',
+                                                   'genre_list6', 'genre_list7',
+                                                   'genre_list8', 'genre_li...
+                                                   'prod_comp_list4', ...])])),
+                ('regressor',
+                 RandomizedSearchCV(cv=8,
+                                    estimator=RandomForestRegressor(random_state=42),
+                                    n_iter=20,
+                                    param_distributions={'max_depth': [10, 20,
+                                                                       30, 40,
+                                                                       50, 60,
+                                                                       70, 80,
+                                                                       90, 100,
+                                                                       110,
+                                                                       None],
+                                                         'max_features': ['auto',
+                                                                          'sqrt',
+                                                                          20,
+                                                                          25,
+                                                                          30,
+                                                                          35],
+                                                         'min_samples_leaf': [1,
+                                                                              2,
+                                                                              4,
+                                                                              8,
+                                                                              10],
+                                                         'min_samples_split': [2,
+                                                                               5,
+                                                                               10,
+                                                                               15],
+                                                         'n_estimators': [20,
+                                                                          40,
+                                                                          45,
+                                                                          50,
+                                                                          60,
+                                                                          80,
+                                                                          100,
+                                                                          150,
+                                                                          200,
+                                                                          300,
+                                                                          500,
+                                                                          600,
+                                                                          700,
+                                                                          800]}))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 22:35:01,818:INFO:Checking exceptions
+2021-11-12 22:35:01,818:INFO:Preloading libraries
+2021-11-12 22:35:57,806:INFO:Initializing load_model()
+2021-11-12 22:35:57,806:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:35:59,581:INFO:Initializing load_model()
+2021-11-12 22:35:59,581:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
+2021-11-12 22:35:59,647:INFO:Initializing predict_model()
+2021-11-12 22:35:59,647:INFO:predict_model(estimator=Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['budget',
+                                                   'original_language',
+                                                   'popularity', 'runtime',
+                                                   'genre_list0', 'genre_list1',
+                                                   'genre_list2', 'genre_list3',
+                                                   'genre_list4', 'genre_list5',
+                                                   'genre_list6', 'genre_list7',
+                                                   'genre_list8', 'genre_li...
+                                                   'prod_comp_list4', ...])])),
+                ('regressor',
+                 RandomizedSearchCV(cv=8,
+                                    estimator=RandomForestRegressor(random_state=42),
+                                    n_iter=20,
+                                    param_distributions={'max_depth': [10, 20,
+                                                                       30, 40,
+                                                                       50, 60,
+                                                                       70, 80,
+                                                                       90, 100,
+                                                                       110,
+                                                                       None],
+                                                         'max_features': ['auto',
+                                                                          'sqrt',
+                                                                          20,
+                                                                          25,
+                                                                          30,
+                                                                          35],
+                                                         'min_samples_leaf': [1,
+                                                                              2,
+                                                                              4,
+                                                                              8,
+                                                                              10],
+                                                         'min_samples_split': [2,
+                                                                               5,
+                                                                               10,
+                                                                               15],
+                                                         'n_estimators': [20,
+                                                                          40,
+                                                                          45,
+                                                                          50,
+                                                                          60,
+                                                                          80,
+                                                                          100,
+                                                                          150,
+                                                                          200,
+                                                                          300,
+                                                                          500,
+                                                                          600,
+                                                                          700,
+                                                                          800]}))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-12 22:35:59,649:INFO:Checking exceptions
+2021-11-12 22:35:59,649:INFO:Preloading libraries
+2021-11-12 22:52:35,452:INFO:Initializing load_model()
+2021-11-12 22:52:35,452:INFO:load_model(model_name=model/final_model_boxoffice, platform=None, authentication=None, verbose=True)
