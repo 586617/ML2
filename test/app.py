@@ -31,7 +31,7 @@ class StreamlitApp:
     
         add_selectbox = st.sidebar.selectbox('How would you like to predict?', ('Online', 'Batch')) #bruke batch for aa predikere paa alle bildene. 
         st.sidebar.info('This app is created to predict box office revenue' )
-        st.sidebar.success('DAT158*')
+        st.sidebar.success('DAT158')
         st.title('Box office prediction')
         
        
